@@ -93,3 +93,7 @@ dout = 0.  etc
 
 # output Waveform
 <img width="1622" height="451" alt="image" src="https://github.com/user-attachments/assets/0729b968-50bd-4f91-a1e5-aa0b7613fa0d" />
+
+# RTL
+<img width="1337" height="865" alt="image" src="https://github.com/user-attachments/assets/8636572c-c5a9-430e-a325-f635663f88aa" />
+
