@@ -1,0 +1,16 @@
+`timescale 1ns / 1ps
+
+ module single_port_ram_fpga(output [7:0] dout , input rst , clk , wr ,
+    input [7:0] add , din );
+    
+  integer k = 0 ;
+    reg [7:0] ram [7:0] ;
+    always@ (posedge clk) begin
+    if (rst) begin
+    for (k=0 ; k <=7 ; k=k+1)
+    ram[k] <= 8'd0 ; end
+    else if ( wr==1) begin
+    ram[add] <= din ; end
+    end
+    assign dout = (wr==0) ? ram[add] : 8'd0 ;
+    endmodule
