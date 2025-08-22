@@ -1,5 +1,7 @@
 # Single-Port-RAM-on-an_FPGA
 A Single Port RAM is a memory block that stores data in an array-like structure, where each location (address) holds a fixed-size piece of data (e.g., 8 bits).
+# Block Digram
+![WhatsApp Image 2025-08-22 at 19 31 30_dfc1572f](https://github.com/user-attachments/assets/e55f4ff5-d2a1-4670-8d09-2166f015a7c0)
 
 # Key Features:
 
